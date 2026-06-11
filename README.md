@@ -82,7 +82,7 @@ shared overrides once, then switch styles with `:colorscheme lowbeam-dusk` or
 
 ```lua
 {
-  "adejolx-kora/lowbeam.nvim",
+  "adejolx/lowbeam.nvim",
   priority = 1000,
   config = function()
     require("lowbeam").setup({})
@@ -96,7 +96,7 @@ shared overrides once, then switch styles with `:colorscheme lowbeam-dusk` or
 
 ```lua
 use({
-  "adejolx-kora/lowbeam.nvim",
+  "adejolx/lowbeam.nvim",
   config = function()
     require("lowbeam").setup({ style = "day" })
     vim.cmd.colorscheme("lowbeam-day")
@@ -282,7 +282,7 @@ Clone into your local Neovim packages directory or load it with your plugin
 manager from a local path.
 
 ```bash
-git clone https://github.com/adejolx-kora/lowbeam.nvim ~/.local/share/nvim/site/pack/dev/start/lowbeam.nvim
+git clone https://github.com/adejolx/lowbeam.nvim ~/.local/share/nvim/site/pack/dev/start/lowbeam.nvim
 ```
 
 Open Neovim and run:
