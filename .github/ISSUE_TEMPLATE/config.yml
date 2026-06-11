@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Forking policy
+    url: https://github.com/your-github-name/lowbeam.nvim/blob/main/FORKING.md
+    about: Lowbeam is public source but does not accept contribution requests.
